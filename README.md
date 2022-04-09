@@ -1,4 +1,4 @@
-# Challenge-Site-Selfcare
+# Challenge Site Selfcare
 Challenge de site desenvolvido a partir de referência
 
 Challenger retirado do site DevChallenge
