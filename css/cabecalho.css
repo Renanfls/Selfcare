@@ -1,0 +1,10 @@
+.cabecalho .container {
+    align-items: center;
+    background: var(--branco);
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__logo{
+    user-select: none;
+}

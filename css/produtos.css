@@ -1,0 +1,24 @@
+.produtos__itens {
+    display: grid;
+}
+.produtos__card {
+    display: grid;
+    grid-template-areas: 
+        "card-imagem"
+        "card-descricao"
+        "card-preco";
+    grid-template-columns: 100%;
+}
+.produtos__imagem {
+    border: none;
+    border-radius: 10px;
+    grid-area: card-imagem;
+}
+.produtos__descricao {
+    margin-top: .4rem;
+    grid-area: card-descricao;
+}
+.produtos__preco {
+    margin-top: .5rem;
+    grid-area: card-preco;
+}

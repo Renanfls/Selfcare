@@ -1,0 +1,11 @@
+.promocao {
+    border-bottom: .2px solid var(--border-bottom);
+    display: flex;
+    justify-content: space-between;
+}
+
+.promocao h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    user-select: none;
+}
