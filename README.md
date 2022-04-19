@@ -12,7 +12,7 @@ Link de acesso ao site : https://challenge-site-selfcare.vercel.app
 ![desktop](https://user-images.githubusercontent.com/78867248/149231631-5ccb7f93-45c5-4ad6-b0de-0f72bb865892.png)
 
 # Resultado desktop:
-![resultado-desktop](https://user-images.githubusercontent.com/78867248/149235585-a3a008c0-6944-4258-8ca7-9de1b20814c2.png)
+![FireShot Capture 010 - Selfcare - challenge-site-selfcare vercel app](https://user-images.githubusercontent.com/78867248/163944108-6c073b4d-25eb-4ba8-9e28-6d6b7d4551fd.png)
 
 # Imagem de base mobile:
 ![mobile](https://user-images.githubusercontent.com/78867248/149231714-3ca8105e-12db-48f2-9199-357571f839c9.png)
