@@ -1,151 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" crossorigin="anonymous">
     <title>Selfcare</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cabecalho.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/promocao.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/responsivo.css">
 </head>
 <body>
-    <header>
-        <main>
-            <div class="header-main">
-                <div class="logo">
-                    <h2><i class="fas fa-star"></i>selfcare</h2>
-                </div>
-                <div class="icone-header">
-                    <ul>
-                        <li>
-                            <a href=""><i class="fas fa-search"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fas fa-user"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fas fa-shopping-cart"></i></a>
-                        </li>
-                    </ul>
-                </div>  
-            </div>
-        <main>
-    </header>
-    <div>
-        <picture>
-            <source media="(min-width: 640px)" 
-            sizes="100vw"
-            srcset="images/banner-1500w.png 1500w">
-            <source sizes="100vw"
-            srcset="images/banner-360w.png 415w">
-            <img src="./images/banner-1500w.png" alt="">
-        </picture>
-    </div>
-    <section class="section-1">
-        <h2 id="h-um">Promoção</h2>
-        <p>9 produtos</p>
-    </section>
-    <hr id="um">
-    <section class="section-2">
-        <div class="grid">
-            <div>
-                <img class="img" src="./images/gabrielle-henderson-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/devin-avery-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/olena-sergienko-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/phaedra-botanicals-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/chandra-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/devin-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/nery-montenegro-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/pharma-hemp-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-            <div>
-                <img class="img" src="./images/pharma-hemp-complex-360w.png" alt="">
-                <p>Lorem ipsum dolor sit</p>
-                <p>R$ <b>50,00</b></p>
-            </div>
-        </div>
-    </section>
-    <hr id="dois">
-    <footer>
-        <div class="footer">
-            <div class="footer-1">
-                <ul>
-                    <li>
-                        <a href="" id="contato">Contato</a>
-                    </li>
-                    <li>
-                        <a href="" id="termos">Termos de serviço</a>
-                    </li>
-                    <li>
-                        <a href="" id="politica">Política de privacidade</a>
-                    </li>
-                    <li>
-                        <a href="" id="cancelamento">Cancelamento, troca e reembolso</a>
+    <header class="cabecalho">
+        <div class="container">
+            <img class="cabecalho__logo" src="images/logo.svg">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#">
+                            <img id="menu__icone-pesquisa" src="images/icone-pesquisa.svg" alt="i">
+                        </a>
+                        <a class="menu__link" href="#">
+                            <img id="menu__icone-contato" src="images/icone-contato.svg" alt="">
+                        </a>
+                        <a class="menu__link" href="#">
+                            <img id="menu__icone-carrinho" src="images/icone-carrinho.svg" alt="">
+                        </a>
                     </li>
                 </ul>
-            </div>
-            <div class="form">
-                <form>
-                    <p>Newsletter</p>
-                    <input type="email" placeholder="Digite seu melhor e-mail" id="email">
-                    <input type="submit" value="Inscrever" id="submit">
-                </form>
-            </div>
-            <hr id="tres">
-            <div class="footer-2">
-                <div class="rede-sociais">
-                    <ul>
-                        <li>
-                            <a href=""><i class="fab fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href=""><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                    </ul>
+            </nav>  
+        </div>
+    </header>
+    <picture class="banner">
+        <source media="(min-width: 768px)" 
+        sizes="100vw"
+        srcset="images/banner-1500w.png 1500w">
+        <source sizes="100vw"
+        srcset="images/banner-360w.png 415w">
+        <img src="./images/banner-1500w.png" alt="">
+    </picture> 
+    <main class="conteudo">
+        <section class="promocao">
+            <h1>Promoção</h1>
+            <p>9 produtos</p>
+        </section>
+        <section class="produtos">
+            <div class="produtos__container">
+                <div class="produtos__itens">
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/gabrielle-henderson-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/devin-avery-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/olena-sergienko-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/phaedra-botanicals-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/chandra-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/devin-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/nery-montenegro-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/pharma-hemp-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
+                    <div class="produtos__card">
+                        <img class="produtos__imagem" src="images/pharma-hemp-complex-360w.png" alt="">
+                        <p class="produtos__descricao">Lorem ipsum dolor sit</p>
+                        <p class="produtos__preco">R$ <b>50,00</b></p>
+                    </div>
                 </div>
-                <div class="bancos">
-                    <ul>
-                        <li>
-                            <a href=""><img id="mastercard" src="./images/mastercard.svg" alt="mastercard"></a>
-                        </li>
-                        <li>
-                            <a href=""><img id="paypal" src="./images/paypal.svg" alt="paypal"></a>
-                        </li>
-                        <li>
-                            <a href=""><img id="visa" src="./images/visa.svg" alt="visa"></a>
-                        </li>
-                    </ul>
-                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__container">
+            <div class="rodape__contato">
+                <ul>
+                    <li><a href="#" id="contato">Contato</a></li>
+                    <li><a href="#" id="termos">Termos de serviço</a></li>
+                    <li><a href="#" id="politica">Política de privacidade</a></li>
+                    <li><a href="#" id="cancelamento">Cancelamento, troca e reembolso</a></li>
+                </ul>
+            </div>
+            <form class="rodape__form">
+                <fieldset>
+                    <legend class="rodape__form___legend" for="email">Newsletter</legend>
+                    <div class="rodape__form___fieldset">
+                        <input type="email" placeholder="Digite seu melhor e-mail" id="email">
+                        <input type="submit" value="Inscrever" id="submit">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="rodape__container-2">
+            <div class="ropade__rede-sociais">
+                <a href="#" class="rodape__rede-sociais___link" id="instagram"><img src="images/instagram.svg" alt="logo instagram"></a>
+                <a href="#" class="rodape__rede-sociais___link" id="facebook"><img src="images/facebook.svg" alt="logo facebook"></a>
+            </div>
+            <div class="rodape__bancos">
+                <a href="#" class="rodape__bancos___link"><img id="mastercard" src="./images/mastercard.svg" alt="mastercard"></a>
+                <a href="#" class="rodape__bancos___link"><img id="paypal" src="./images/paypal.svg" alt="paypal"></a>
+                <a href="#" class="rodape__bancos___link"><img id="visa" src="./images/visa.svg" alt="visa"></a>
             </div>
         </div>
     </footer>
